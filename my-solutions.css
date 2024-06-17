@@ -40,6 +40,72 @@
 
 /* ESERCIZIO 5 */
 
+.ex-5-square {
+    transition: scale 2s ease-in;
+}
+
+.ex-5-square:hover {
+    scale: 3;
+    background-color: blueviolet;
+}
+
+.ex-5-square:active {
+    scale: 0.5;
+    background-color: aqua;
+}
+
+
 /* ESERCIZIO 6 */
+.ex-6-img {
+    transition: filter 2s ease-in-out;
+}
+
+.ex-6-img:hover {
+    filter: grayscale(100%);
+}
 
 /* ESERCIZIO 7 */
+
+.ex-7-img {
+    transition: all 2s ease-in-out;
+}
+
+.ex-7-img:hover {
+    filter: grayscale(100%);
+    scale: 2;
+
+}
+
+/* ESERCIZIO 8 */
+
+.ex-8-img {
+    transition: all 1s ease-in-out;
+}
+
+.ex-8-img:active {
+    filter: saturate(200%);
+    filter: hue-rotate(180deg);
+    border-radius: 30px;
+
+}
+
+/* ESERCIZIO 9 */
+.ex-9-img {
+    transition: all 1s ease-in-out;
+}
+
+.ex-9-img:active {
+    filter: saturate(200%);
+    filter: hue-rotate(180deg);
+    border-radius: 30px;
+    scale: 2;
+
+}
+
+/* ESERCIZIO 10 */
+
+/* ESERCIZIO 11 */
+
+/* ESERCIZIO 12 */
+
+/* ESERCIZIO 13 */
